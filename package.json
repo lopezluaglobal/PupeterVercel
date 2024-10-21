@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node_index.js",
+    "test": "mocha --timeout 10000 ./tests"
+  },
+  
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "puppeteer": "^23.6.0"
+  }
+}
